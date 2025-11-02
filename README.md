@@ -7,17 +7,17 @@ The file at `main.cherri` is the entry point of the package, as it is the file t
 A private package will be able to install this package using:
 
 ```bash
-cherri --install=electrikmilk/package-example
+cherri --install=@electrikmilk/package-example
 ```
 
 Packages are initialized using:
 
 ```bash
-cherri --init={github_username}/{package_name}
+cherri --init=@{github_username}/{package_name}
 ```
 
 Packages can be removed using:
 
 ```bash
-cherri --remove={github_username}/{package_name}
+cherri --remove=@{github_username}/{package_name}
 ```
