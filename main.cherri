@@ -1,1 +1,3 @@
+#include 'packages/package-example/test.cherri'
+
 alert("Hello, Cherri!")
