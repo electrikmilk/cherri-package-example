@@ -9,11 +9,11 @@ You can host Cherri packages anywhere you can host a Git repository with the sam
 This package can be installed using:
 
 ```bash
-cherri --install=@{github_username}/{package_name}
+cherri --install=@electrikmilk/package-example
 ```
 
 This package can be removed using:
 
 ```bash
-cherri --remove=@{github_username}/{package_name}
+cherri --remove=@electrikmilk/package-example
 ```
